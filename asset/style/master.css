@@ -1,0 +1,987 @@
+.top-page {
+  width: 100%;
+  height: 120vh;
+  background-color: #f5f9f4;
+}
+.top-page > header {
+  width: 100%;
+  height: 20%;
+  padding: 30px;
+}
+.top-page > header > nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.top-page > header > nav > figure {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-page > header > nav > figure > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 60%;
+}
+.top-page > header > nav > ul {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-page > header > nav > ul > li {
+  width: 17%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.top-page > header > nav > ul > li:hover .drop {
+  visibility: visible;
+  opacity: 1;
+  top: 80%;
+  left: 0;
+}
+.top-page > header > nav > ul > li > .drop {
+  width: 120%;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  border: 1px solid #4e6d43;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.top-page > header > nav > ul > li > .drop > li {
+  width: 100%;
+  list-style-type: none;
+}
+.top-page > header > nav > ul > li > .drop > li > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+  padding: 10px;
+}
+.top-page > header > nav > ul > li > .drop > li > a:hover {
+  background-color: #4e6d43;
+  color: white;
+}
+.top-page > header > nav > ul > li > a {
+  width: 100%;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  transition: 0.4s;
+  font-weight: 600;
+}
+.top-page > header > nav > ul > li > a:hover {
+  color: #4e6d43;
+}
+.top-page > header > nav > div {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-page > header > nav > div > a {
+  color: white;
+  background-color: black;
+  padding: 20px 35px 20px 35px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.top-page > header > nav > div > a:hover {
+  background-color: #4e6d43;
+}
+.top-page > div {
+  width: 100%;
+  height: 80%;
+}
+.top-page > div > span {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.top-page > div > span > blockquote {
+  width: 80%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+.top-page > div > span > blockquote > q {
+  font-size: 60px;
+  line-height: 90px;
+  padding-left: 40px;
+}
+.top-page > div > span > p {
+  width: 80%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding-left: 40px;
+}
+.top-page > div > div {
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.top-page > div > div > article {
+  width: 45%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-page > div > div > article > h3 {
+  width: 100%;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25%;
+}
+.top-page > div > div > article > p {
+  line-height: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-size: 18px;
+  height: 50%;
+}
+.top-page > div > div > article > a {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #4e6d43;
+  padding-top: 10px;
+}
+
+.cozy {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/banner-30-scaled.jpg);
+  background-size: cover;
+  position: relative;
+}
+.cozy > div {
+  width: 45%;
+  height: 60%;
+  background-color: #000000;
+  margin-top: 200px;
+  margin-left: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.cozy > div > * {
+  color: white;
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.cozy > div > p {
+  text-transform: capitalize;
+  height: 30%;
+  align-items: end;
+  font-size: 20px;
+}
+.cozy > div > h2 {
+  font-size: 45px;
+  height: 25%;
+}
+.cozy > div > div {
+  position: relative;
+  height: 10%;
+}
+.cozy > div > div::after {
+  position: absolute;
+  content: "";
+  background-color: #545454;
+  width: 30%;
+  height: 4px;
+  left: 0;
+  top: calc(50% - 4px);
+}
+.cozy > div > span {
+  height: 10%;
+}
+.cozy > div > span > p {
+  width: 25%;
+  text-transform: capitalize;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.cozy > div > section {
+  height: 25%;
+  align-items: start;
+}
+.cozy > div > section > p {
+  width: 25%;
+  height: 50%;
+  font-size: 29px;
+  padding-left: 29px;
+  display: flex;
+  align-items: center;
+}
+.cozy > div > section > p:nth-of-type(3) {
+  padding-left: 0 !important;
+}
+.cozy > a {
+  color: white;
+  background-color: #4e6d43;
+  padding: 15px 30px 15px 30px;
+  font-weight: 600;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.morbi {
+  width: 100%;
+  height: 110vh;
+}
+.morbi > figure {
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.morbi > figure > img {
+  width: 80%;
+  height: 85%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.morbi > div {
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.morbi > div > span {
+  width: 70%;
+  height: 60%;
+}
+.morbi > div > span > * {
+  width: 100%;
+}
+.morbi > div > span > p {
+  color: #4e6d43;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: end;
+  justify-content: start;
+  height: 25%;
+}
+.morbi > div > span > article {
+  height: 60%;
+  display: flex;
+}
+.morbi > div > span > article > h2 {
+  font-size: 48px;
+  word-spacing: 8px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+.morbi > div > span > article > p {
+  width: 100%;
+  height: 50%;
+  text-align: justify;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+.morbi > div > span > div {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.morbi > div > span > div > a {
+  color: white;
+  background-color: #4e6d43;
+  padding: 15px 30px 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.properties {
+  width: 100%;
+  height: 110vh;
+  background-color: #f5f9f4;
+}
+.properties > span {
+  width: 100%;
+  height: 10%;
+}
+.properties > span > * {
+  width: 50%;
+  height: 100%;
+}
+.properties > span > p {
+  text-transform: capitalize;
+  font-size: 30px;
+  padding-left: 54px;
+  align-items: end;
+  display: flex;
+}
+.properties > span > div {
+  width: calc(50% - 24px);
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-right: 24px;
+}
+.properties > span > div > a {
+  color: #4e6d43;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 15px 30px 15px 30px;
+  font-size: 20px;
+}
+.properties > span > div > a:hover {
+  background-color: white;
+}
+.properties > div {
+  width: 100%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.properties > div > div {
+  width: 400px;
+  height: 500px;
+  margin: 0 30px;
+  justify-content: center;
+  background-color: white;
+}
+.properties > div > div > figure {
+  width: 100%;
+  height: 30%;
+}
+.properties > div > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.properties > div > div > p {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.properties > div > div > h2 {
+  width: 80%;
+  font-size: 38px;
+  height: 20%;
+  text-transform: capitalize;
+}
+.properties > div > div > span {
+  height: 10%;
+  width: 80%;
+  position: relative;
+}
+.properties > div > div > span::after {
+  width: 25%;
+  height: 4px;
+  content: "";
+  background-color: #545454;
+  position: absolute;
+  top: calc(50% - 4px);
+  left: 0;
+}
+.properties > div > div > div {
+  width: 80%;
+  height: 45%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.properties > div > div > div > span {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.properties > div > div > div > span > p {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #4e6d43;
+  font-size: 18px;
+  font-weight: bold;
+}
+.properties > div > div > div > span > p:nth-of-type(3), .properties > div > div > div > span > p:nth-of-type(4) {
+  font-size: 20px;
+  padding-left: 30px;
+  color: #000000;
+  font-weight: normal;
+}
+.properties > div > div > div > div {
+  width: 100%;
+  height: 40%;
+}
+.properties > div > div > div > div > p {
+  width: 100%;
+  text-transform: capitalize;
+  height: 50%;
+  color: #4e6d43;
+  font-size: 18px;
+  font-weight: bold;
+}
+.properties > div > div > div > div > p:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  font-weight: normal;
+}
+
+.bgi {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/banner-3-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tour {
+  width: 100%;
+  height: 130vh;
+  background-color: #4e6d43;
+}
+.tour > h2 {
+  width: 100%;
+  height: 20%;
+  padding-left: 54px;
+  font-size: 54px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.tour > div {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+.tour > div > span {
+  width: 30%;
+  height: 80%;
+  margin: 0 20px;
+  justify-content: center;
+  align-content: center;
+}
+.tour > div > span > * {
+  margin-top: 20px;
+}
+.tour > div > span > figure {
+  width: 100%;
+  height: 40%;
+}
+.tour > div > span > figure > a {
+  width: 100%;
+  height: 100%;
+}
+.tour > div > span > figure > a > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tour > div > span > p {
+  width: 80%;
+  font-size: 20px;
+  color: white;
+  padding-top: 15px;
+}
+.tour > div > span > h3 {
+  color: white;
+  font-size: 35px;
+  width: 80%;
+}
+.tour > div > span > div {
+  width: 80%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.tour > div > span > div > a {
+  color: #4e6d43;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.midpage {
+  width: 100%;
+  height: 70vh;
+  align-items: center;
+}
+.midpage > article {
+  width: 40%;
+  height: 55%;
+}
+.midpage > article > * {
+  padding: 0 54px;
+}
+.midpage > article > h5 {
+  font-size: 22px;
+  width: 100%;
+  display: flex;
+  align-items: end;
+}
+.midpage > article > p {
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.midpage > article > div {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.midpage > article > div > a {
+  color: white;
+  background-color: #4e6d43;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.midpage > h2 {
+  width: 60%;
+  height: 55%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  line-height: 60px;
+  justify-content: end;
+  padding-right: 54px;
+}
+
+.latestarticle {
+  width: 100%;
+  height: 190vh;
+  background-color: #f5f9f4;
+  justify-content: center;
+}
+.latestarticle > section {
+  width: 90% !important;
+  height: 40% !important;
+  background-image: url(../img/banner-19-scaled.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.latestarticle > section > div {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.latestarticle > section > div > * {
+  margin: 15px 0;
+  color: white;
+  position: relative;
+}
+.latestarticle > section > div > p {
+  width: 100%;
+  font-weight: normal;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.latestarticle > section > div > h3 {
+  width: 100%;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+}
+.latestarticle > section > div > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.latestarticle > section > div > div > a {
+  color: black;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.latestarticle > section > div > div > a:hover {
+  background-color: #4e6d43;
+  color: white;
+}
+.latestarticle > section > div::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3843137255);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.latestarticle > span {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+}
+.latestarticle > span > p {
+  width: 50%;
+  text-transform: capitalize;
+  font-size: 25px;
+  padding-left: 64px;
+}
+.latestarticle > span > a {
+  text-decoration: none;
+  color: #4e6d43;
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  padding-right: 64px;
+  font-size: 20px;
+}
+.latestarticle > div {
+  width: 100%;
+  height: calc(55% - 100px);
+  justify-content: center;
+  align-items: center;
+}
+.latestarticle > div > div {
+  width: 380px;
+  height: 600px;
+  margin: 0 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.latestarticle > div > div > figure {
+  width: 100%;
+  height: 25%;
+}
+.latestarticle > div > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.latestarticle > div > div > h3 {
+  width: 80%;
+  height: 20%;
+  font-size: 25px;
+  text-transform: capitalize;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+.latestarticle > div > div > span {
+  width: 80%;
+  height: 10%;
+  position: relative;
+}
+.latestarticle > div > div > span::after {
+  content: "";
+  width: 25%;
+  height: 4px;
+  background-color: #6d6d6d;
+  position: absolute;
+  left: 0;
+  top: calc(50% - 4px);
+}
+.latestarticle > div > div > p {
+  width: 80%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+  font-size: 18px;
+}
+.latestarticle > div > div > div {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.latestarticle > div > div > div > a {
+  width: 45%;
+  height: 40%;
+  color: white;
+  background-color: #4e6d43;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottompage {
+  width: 100%;
+  height: 120vh;
+  background-image: url(../img/banner-9-scaled.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bottompage > div {
+  width: 40%;
+  height: 75%;
+  background-color: white;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottompage > div > span {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottompage > div > span > * {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+.bottompage > div > span > h5 {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 20px;
+  font-weight: normal;
+}
+.bottompage > div > span > h2 {
+  height: 40%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+.bottompage > div > span > span {
+  height: 15%;
+  position: relative;
+}
+.bottompage > div > span > span::after {
+  content: "";
+  width: 25%;
+  height: 4px;
+  background-color: #6d6d6d;
+  position: absolute;
+  top: calc(50% - 4px);
+  left: 0;
+}
+.bottompage > div > span > p {
+  height: 35%;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+footer {
+  width: 100%;
+  height: 80vh;
+}
+footer > span {
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+footer > span > div {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer > span > div > figure {
+  width: 50%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+footer > span > div > figure > img {
+  width: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-left: 24px;
+}
+footer > span > div nav {
+  width: 100%;
+  height: 20%;
+}
+footer > span > div nav > ul {
+  width: 100%;
+  height: 100%;
+}
+footer > span > div nav > ul > li {
+  height: 100%;
+  width: 20%;
+  list-style-type: none;
+  position: relative;
+}
+footer > span > div nav > ul > li:hover > ul {
+  top: 60px;
+  opacity: 1;
+  visibility: visible;
+}
+footer > span > div nav > ul > li > ul {
+  width: 150%;
+  position: absolute;
+  left: 0;
+  top: 150px;
+  border: 1px solid #4e6d43;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s;
+  background-color: none;
+}
+footer > span > div nav > ul > li > ul > li {
+  width: 100%;
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer > span > div nav > ul > li > ul > li > a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+  text-transform: capitalize;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > span > div nav > ul > li > ul > li > a:hover {
+  color: white;
+  background-color: #4e6d43;
+}
+footer > span > div nav > ul > li > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.4s;
+  font-weight: 700;
+}
+footer > span > div nav > ul > li > a:hover {
+  color: #4e6d43;
+}
+footer > span > div > p {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: bold;
+}
+footer > span > div > p > a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.4s;
+}
+footer > span > div > p > a:hover {
+  color: #4e6d43;
+}
+footer > div {
+  width: 50%;
+  height: 100%;
+  background-color: #4e6d43;
+  justify-content: center;
+  align-items: center;
+}
+footer > div > span {
+  width: 60%;
+  height: 60%;
+}
+footer > div > span > * {
+  color: white;
+}
+footer > div > span > h5 {
+  width: 100%;
+  font-size: 20px;
+  justify-content: start;
+  display: flex;
+  align-items: center;
+}
+footer > div > span > p {
+  line-height: 30px;
+  display: flex;
+  justify-content: start;
+  font-size: 20px;
+  align-items: center;
+}
+footer > div > span > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+footer > div > span > div > a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  border: 1px solid white;
+  padding: 15px 20px 15px 10px;
+  transition: 0.4s;
+}
+footer > div > span > div > a:hover {
+  color: #4e6d43;
+  background: white;
+}/*# sourceMappingURL=master.css.map */
